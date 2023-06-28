@@ -1,14 +1,18 @@
 
 body {
     margin-top: 10px;
-    margin-left: 180px;
-    margin-right: 180px;
+    /* margin-left: 180px;
+    margin-right: 180px; */
+    margin-inline: 0px;
     background: #1f2937;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: white;
 }
 
+
+
 .header {
+    margin-inline: 180px;
     display: flex;
     justify-content: space-between;
     padding: 0px;
@@ -30,14 +34,24 @@ ul {
 }
 
 .main {
+    margin-inline: 180px;
     display: flex;
     justify-content: space-between;
     padding-block: 80px;
 }
 
+main-right {
+    display: flex;
+    
+}
+
+.pic {
+    gap: 0px;
+}
+
 img {
     width: auto;
-    height: 220px;;
+    height: 350px;
 }
 
 button {
@@ -60,8 +74,27 @@ button {
     font-weight: 950;
 }
 
+
 p {
     margin: 0px;
     color: rgb(218, 215, 215)
 }
+
+.info {
+    background: white;
+    color: #1f2937;
+    padding: 50px;
+
+}
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.info-slides {
+    margin-inline: 180px;
+}
+
 
