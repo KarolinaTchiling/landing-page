@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0px;
+    margin-top: 20px;
 }
 
 .logo {
@@ -120,7 +121,7 @@ p {
     font-size: 30px;
     font-style: italic;
     font-weight: lighter;
-    padding-inline: 180px;
+    padding-inline: 320px;
     padding-block: 100px;
     background-color:  #e5e7eb;
 }
@@ -131,7 +132,7 @@ p {
 
 }
 
-.action-button {
+.action-block {
     background-color: #3882F6;
     margin-inline: 180px;
     padding-block: 50px;
@@ -143,5 +144,43 @@ p {
     font-size: 30px;
     font-style: italic;
     font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.action-text {
+    text-align: left;
+    color: white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    margin-inline: 150px;
+}
+
+.action-sub {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    outline: 3px solid white;
+    border-radius: 8px;
+    padding: 0px 20px; /* Combining padding-inline and padding-block */
+    height: 30px;
+    margin-inline: 150px;
+}
+
+.footer {
+    margin: 50px;
+    text-align: center;
+}
+
 
